@@ -9,6 +9,7 @@ import './App.css';
 // import HelloFromStateClass from './Lessons/1000-State';
 // import HandleButtonClick from './Lessons/1001-HandleButtonClick';
 import Counter from './Lessons/1100-setStateAsync';
+import CuncorrentCounter from './Lessons/1101-Cuncurrent';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
      <HelloFromStateClass /> 
      <HandleButtonClick /> */}
      <Counter/>
+     <CuncorrentCounter/>
     </div>
   );
 }
