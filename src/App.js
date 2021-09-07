@@ -10,6 +10,7 @@ import './App.css';
 // import HandleButtonClick from './Lessons/1001-HandleButtonClick';
 import Counter from './Lessons/1100-setStateAsync';
 import CuncorrentCounter from './Lessons/1101-Cuncurrent';
+import {Destructure1, Destructure2, Destructure3} from './Lessons/1200-Destructure';
 
 function App() {
   return (
@@ -30,8 +31,11 @@ function App() {
      <HelloByPropsInClass name='Mohammad'/>
      <HelloFromStateClass /> 
      <HandleButtonClick /> */}
-     <Counter/>
-     <CuncorrentCounter/>
+     {/* <Counter/>
+     <CuncorrentCounter/> */}
+     <Destructure1 lName = 'Mohammad' fName = 'Mirmostafa'/>
+     <Destructure2 lName = 'Mohammad' fName = 'Mirmostafa'/>
+     <Destructure3 lName = 'Mohammad' fName = 'Mirmostafa'/>
     </div>
   );
 }
