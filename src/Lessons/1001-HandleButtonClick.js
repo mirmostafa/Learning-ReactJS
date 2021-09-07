@@ -8,7 +8,7 @@ export default class HandleButtonClick extends Component {
         };
     }
     
-    subscribeBurronOnClick = () => this.setState({ message : 'Thank you subscribing. 🙏' });
+    subscribeBurronOnClick = () => this.setState({ message : 'Thank you for subscribing. 🙏' });
 
     render = () => (
             <div>

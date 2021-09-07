@@ -7,7 +7,8 @@ import './App.css';
 // import HelloByPropsChildren from './Lessons/0901-PropChildren'
 // import HelloByPropsInClass from './Lessons/0902-PropsInClass'
 // import HelloFromStateClass from './Lessons/1000-State';
-import HandleButtonClick from './Lessons/1001-HandleButtonClick';
+// import HandleButtonClick from './Lessons/1001-HandleButtonClick';
+import Counter from './Lessons/1100-setStateAsync';
 
 function App() {
   return (
@@ -26,9 +27,9 @@ function App() {
        <button>Save</button>
      </HelloByPropsChildren>
      <HelloByPropsInClass name='Mohammad'/>
-     <HelloFromStateClass /> */}
-     <HandleButtonClick />
-     
+     <HelloFromStateClass /> 
+     <HandleButtonClick /> */}
+     <Counter/>
     </div>
   );
 }
