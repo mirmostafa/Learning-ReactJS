@@ -8,13 +8,9 @@ export default class CuncorrentCounter extends Component {
         };
     }
 
-    increase() {
-        this.setState(prevState => ({
-            count : prevState.count + 1 
-        }), () => console.log(this.state));
-    }
-
-    increaseFive(){
+    increase = () => this.setState(prevState => ({ count : prevState.count + 1 }), () => console.log(this.state));
+    
+    increaseFive() {
         this.increase();
         this.increase();
         this.increase();
@@ -22,13 +18,11 @@ export default class CuncorrentCounter extends Component {
         this.increase();
     }
 
-    render() {
-        return (
+    render = () => (
             <div>
                 <div>Counter: {this.state.count}</div>
                 {/* Note: Calling this.increase as a delegate, will couse this.increase to be called statically. */}
                 <button onClick = {() => this.increaseFive()}>Increase</button>
             </div>
         );
-    }
 }
