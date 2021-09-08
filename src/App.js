@@ -15,6 +15,7 @@ import {Destructure1, Destructure2, Destructure3} from './Lessons/1200-Destructu
 import ButtonClickHandleFunc from './Lessons/1300-ButtonClickFunc';
 import ButtonClickClass from './Lessons/1301-ButtonClickClass';
 import MethodAsProp_Parent from './Lessons/1500-MethodAsProp_Parent';
+import ConditionalRendering from './Lessons/1600-ConditionalRendering';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
      {/* <ButtonClickHandleFunc/>
      <ButtonClickClass/> */}
      {/* <EventBinding/> */}
-     <MethodAsProp_Parent />
+     {/* <MethodAsProp_Parent /> */}
+     <ConditionalRendering />
     </div>
   );
 }
