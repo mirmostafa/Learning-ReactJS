@@ -16,6 +16,7 @@ import ButtonClickHandleFunc from './Lessons/1300-ButtonClickFunc';
 import ButtonClickClass from './Lessons/1301-ButtonClickClass';
 import MethodAsProp_Parent from './Lessons/1500-MethodAsProp_Parent';
 import ConditionalRendering from './Lessons/1600-ConditionalRendering';
+import ListRendering from './Lessons/1700-ListRendering';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
      <ButtonClickClass/> */}
      {/* <EventBinding/> */}
      {/* <MethodAsProp_Parent /> */}
-     <ConditionalRendering />
+     {/* <ConditionalRendering /> */}
+     <ListRendering />
     </div>
   );
 }
