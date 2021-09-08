@@ -17,6 +17,8 @@ import ButtonClickClass from './Lessons/1301-ButtonClickClass';
 import MethodAsProp_Parent from './Lessons/1500-MethodAsProp_Parent';
 import ConditionalRendering from './Lessons/1600-ConditionalRendering';
 import ListRendering from './Lessons/1700-ListRendering';
+import ListRenderingWithIndex from './Lessons/1900-ListRenderingWithIndex';
+import PersonTable from './Lessons/1900-PersonTable';
 
 function App() {
   return (
@@ -47,7 +49,9 @@ function App() {
      {/* <EventBinding/> */}
      {/* <MethodAsProp_Parent /> */}
      {/* <ConditionalRendering /> */}
-     <ListRendering />
+     {/* <ListRendering /> */}
+     {/* <ListRenderingWithIndex /> */}
+     <PersonTable />
     </div>
   );
 }
