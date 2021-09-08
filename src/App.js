@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import EventBinding from './Lessons/01400-EventBinding';
 // import HelloFromFunction, { SayHello2 as HelloFromArrowFunction } from './Lessons/0500-Functional Component';
 // import HelloFromClass from './Lessons/0600-Class Component';
 // import HelloByCreateElement from './Lessons/0800-CreateElement';
@@ -11,6 +12,8 @@ import './App.css';
 import Counter from './Lessons/1100-setStateAsync';
 import CuncorrentCounter from './Lessons/1101-Cuncurrent';
 import {Destructure1, Destructure2, Destructure3} from './Lessons/1200-Destructure';
+import ButtonClickHandleFunc from './Lessons/1300-ButtonClickFunc';
+import ButtonClickClass from './Lessons/1301-ButtonClickClass';
 
 function App() {
   return (
@@ -33,9 +36,12 @@ function App() {
      <HandleButtonClick /> */}
      {/* <Counter/>
      <CuncorrentCounter/> */}
-     <Destructure1 lName = 'Mohammad' fName = 'Mirmostafa'/>
+     {/* <Destructure1 lName = 'Mohammad' fName = 'Mirmostafa'/>
      <Destructure2 lName = 'Mohammad' fName = 'Mirmostafa'/>
-     <Destructure3 lName = 'Mohammad' fName = 'Mirmostafa'/>
+     <Destructure3 lName = 'Mohammad' fName = 'Mirmostafa'/> */}
+     {/* <ButtonClickHandleFunc/>
+     <ButtonClickClass/> */}
+     <EventBinding/>
     </div>
   );
 }
