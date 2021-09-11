@@ -21,6 +21,7 @@ import ListRenderingWithIndex from './Lessons/1900-ListRenderingWithIndex';
 import PersonTable from './Lessons/1900-PersonTable';
 import Stylesheets from './Lessons/2000-Stylesheets';
 import FormHanding from './Lessons/2100-FormHanding';
+import MethodsLifecycle from './Lessons/2300-Lifecycle';
 
 function App() {
   return (
@@ -55,7 +56,8 @@ function App() {
      {/* <ListRenderingWithIndex /> */}
      {/* <PersonTable /> */}
      {/* <Stylesheets useStyle={true} headingClassName='primary'/> */}
-      <FormHanding />
+      {/* <FormHanding /> */}
+      <MethodsLifecycle />
       </div>
   );
 }
