@@ -20,11 +20,11 @@ import ListRendering from './Lessons/1700-ListRendering';
 import ListRenderingWithIndex from './Lessons/1900-ListRenderingWithIndex';
 import PersonTable from './Lessons/1900-PersonTable';
 import Stylesheets from './Lessons/2000-Stylesheets';
+import FormHanding from './Lessons/2100-FormHanding';
 
 function App() {
   return (
     <div className="App">
-      <Stylesheets useStyle={true} headingClassName='primary'/>
 {/* <h1>Explicit Hello from within the app page</h1>
      <HelloFromFunction></HelloFromFunction>
      <HelloFromArrowFunction></HelloFromArrowFunction>
@@ -54,7 +54,9 @@ function App() {
      {/* <ListRendering /> */}
      {/* <ListRenderingWithIndex /> */}
      {/* <PersonTable /> */}
-    </div>
+     {/* <Stylesheets useStyle={true} headingClassName='primary'/> */}
+      <FormHanding />
+      </div>
   );
 }
 
