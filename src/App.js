@@ -19,11 +19,13 @@ import ConditionalRendering from './Lessons/1600-ConditionalRendering';
 import ListRendering from './Lessons/1700-ListRendering';
 import ListRenderingWithIndex from './Lessons/1900-ListRenderingWithIndex';
 import PersonTable from './Lessons/1900-PersonTable';
+import Stylesheets from './Lessons/2000-Stylesheets';
 
 function App() {
   return (
     <div className="App">
-     {/* <h1>Explicit Hello from within the app page</h1>
+      <Stylesheets useStyle={true} headingClassName='primary'/>
+{/* <h1>Explicit Hello from within the app page</h1>
      <HelloFromFunction></HelloFromFunction>
      <HelloFromArrowFunction></HelloFromArrowFunction>
      <HelloFromClass></HelloFromClass>
@@ -51,7 +53,7 @@ function App() {
      {/* <ConditionalRendering /> */}
      {/* <ListRendering /> */}
      {/* <ListRenderingWithIndex /> */}
-     <PersonTable />
+     {/* <PersonTable /> */}
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import RenderPerson from './1700-ListRendering.item';
 
 function ListRenderingWithIndex() {
     const people = [{name:'Mohammad'}, {name:'Ala'}, {name:'Abba$'}];

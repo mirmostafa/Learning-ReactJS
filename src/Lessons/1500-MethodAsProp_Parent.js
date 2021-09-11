@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MethodAsProp_Child from './1500-MethodAsProp_Child';
+import METHOD_AS_PROP__CHILD from './1500-MethodAsProp_Child';
 
 class MethodAsProp_Parent extends Component {
     constructor(props) {
@@ -18,7 +18,7 @@ class MethodAsProp_Parent extends Component {
     render() {
         return (
             <div>
-                <MethodAsProp_Child greetHandler={this.greetParent} />
+                <METHOD_AS_PROP__CHILD greetHandler={this.greetParent} />
             </div>
         )
     }
