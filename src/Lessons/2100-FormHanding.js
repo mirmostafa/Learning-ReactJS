@@ -24,9 +24,13 @@ export class FormHanding extends Component {
         }, () => console.log(this.state.language));
     };
 
+    onSubmitData = e => {
+        alert(`${this.state.userName} ${this.state.language}.`);
+    };
+
     render() {
         return (
-            <form>
+            <form onSubmit={this.onSubmitData}>
                 <div>
                     <input type='text' value={this.state.userName} onChange={this.onUserNameTextBoxChanged}/>
                 </div>
@@ -36,6 +40,9 @@ export class FormHanding extends Component {
                         <option value="CSharp">C#</option>
                         <option value="FSharp">F#</option>
                     </select>
+                </div>
+                <div>
+                    <button type='submit'>Save</button>
                 </div>
             </form>
         )
