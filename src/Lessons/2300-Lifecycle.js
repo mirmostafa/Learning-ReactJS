@@ -5,16 +5,30 @@ import React, {
 class MethodsLifecycle extends Component {
 
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
-            
-        }
-        console.log('MethodsLifecycle constructor')
+
+        };
+        console.log('MethodsLifecycle constructor');
     }
 
     static getDerivedStateFromProps(props, state) {
-        console.log('MethodsLifecycle getDerivedStateFromProps')
+        console.log('MethodsLifecycle getDerivedStateFromProps');
         return null;
+    }
+
+    shouldComponentUpdate() {
+        console.log('MethodsLifecycle shouldComponentUpdate');
+        return true;
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log('MethodsLifecycle getSnapshotBeforeUpdate');
+        return null;
+    }
+
+    componentDidUpdate() {
+        console.log('MethodsLifecycle componentDidUpdate');
     }
 
     componentDidMount() {
@@ -22,7 +36,7 @@ class MethodsLifecycle extends Component {
     }
 
     render() {
-        console.log('MethodsLifecycle render')
+        console.log('MethodsLifecycle render');
         return null;
     }
 }
