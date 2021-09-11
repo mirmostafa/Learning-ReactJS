@@ -26,6 +26,7 @@ export class FormHanding extends Component {
 
     onSubmitData = e => {
         alert(`${this.state.userName} ${this.state.language}.`);
+        e.preventDefault(); //! Does not let page to be refreshed and lost its data.
     };
 
     render() {
