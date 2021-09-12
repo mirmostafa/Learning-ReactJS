@@ -22,6 +22,8 @@ import PersonTable from './Lessons/1900-PersonTable';
 import Stylesheets from './Lessons/2000-Stylesheets';
 import FormHanding from './Lessons/2100-FormHanding';
 import MethodsLifecycle from './Lessons/2300-Lifecycle';
+import FragmentDemots from './Lessons/2500-Fragments';
+import EmptyTag from './Lessons/2501-EmptyTag';
 
 function App() {
   return (
@@ -57,7 +59,9 @@ function App() {
      {/* <PersonTable /> */}
      {/* <Stylesheets useStyle={true} headingClassName='primary'/> */}
       {/* <FormHanding /> */}
-      <MethodsLifecycle />
+      {/* <MethodsLifecycle /> */}
+      <FragmentDemots />
+      <EmptyTag />
       </div>
   );
 }

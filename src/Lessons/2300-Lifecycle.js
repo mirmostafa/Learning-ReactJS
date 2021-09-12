@@ -1,13 +1,11 @@
-import React, {
-    Component
-} from 'react'
+import React, {Component} from 'react'
 
 class MethodsLifecycle extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-
+            stateChanged: true
         };
         console.log('MethodsLifecycle constructor');
     }
